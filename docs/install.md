@@ -79,3 +79,9 @@ You can also grab the tool with homebrew, although this is not officially suppor
 ```bash
 brew update && brew install awscli
 ```
+
+please verify with aws --version 
+if aws command is not found please do : 
+1.sudo find / -name aws 
+2.vi ~/.profile (crating if not exist in $HOME)
+3.add export PATH=$HOME/{path from section 1}:$PATH e.g PATH=$HOME/Library/Python/3.6/bin:$PATH
